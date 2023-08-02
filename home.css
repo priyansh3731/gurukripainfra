@@ -72,8 +72,8 @@ main section p{
 
 
 @media(max-width:909px){
-    label.logo{
-        padding: 0;
+    img.logo{
+        padding: 0 10px;
     }
    nav #icon{
     display: block;
@@ -100,7 +100,7 @@ main section p{
     font-weight: bold;
    }
    nav ul.show{
-    right: 0;
+    right: -20px;
    }
    section.hero{
     display: block;
