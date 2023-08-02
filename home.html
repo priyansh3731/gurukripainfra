@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9709664890.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#icon").click(function(){
+                $("ul").toggleClass("show")
+            })
+        })
+    </script>
+    <link href="home.css" rel="stylesheet">
     <title>gurukripainfra</title>
 </head>
 <body>
-    <h1>testing</h1>
-    <h3>work in progression</h3>
+    <nav>
+        <img class="logo" src="./image/logo2.jpeg">
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+    <main>
+        <section class="hero">
+            <img class="papa" src="./image/papa.jpeg">
+            <p >Papa ...with your blessings I achieved a lot and also in target set to achieve more and more. Wherever you are , you will always exist in my dreams and thoughts. I never spoke up to you but yes I love you so much ..you are my ideal person. I always remind your hard working and sincerity about work and life. I follow the same and will do for this entire life. Keep blessing me . Thank you</p>
+        </section>
+    </main>
 </body>
 </html>
