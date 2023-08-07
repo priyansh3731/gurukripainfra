@@ -19,20 +19,121 @@
     <nav>
         <img class="logo" src="./image/logo2.jpeg">
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">contact us</a></li>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="contact.html">contact us</a></li>
         </ul>
         <label id="icon">
             <i class="fa-solid fa-bars"></i>
         </label>
     </nav>
     <main>
-        <section class="hero">
+        <section class="sec1">
             <img class="papa" src="./image/papa.jpeg">
-            <p >Papa ...with your blessings I achieved a lot and also in target set to achieve more and more. Wherever you are , you will always exist in my dreams and thoughts. I never spoke up to you but yes I love you so much ..you are my ideal person. I always remind your hard working and sincerity about work and life. I follow the same and will do for this entire life. Keep blessing me . Thank you</p>
+            <p>Papa ...with your blessings I achieved a lot and also in target set to achieve more and more. Wherever you are , you will always exist in my dreams and thoughts. I never spoke up to you but yes I love you so much ..you are my ideal person. I always remind your hard working and sincerity about work and life. I follow the same and will do for this entire life. Keep blessing me . Thank you</p>
+        </section>
+        
+        <section class="sec2 show-animate">
+            <div class="centered animate">Advertising & Marketing Solutions<br>ONE STOP, MULTIPLE SOLUTIONS</div>
+            <p class="animate"><span>Digital With Us</span><br>Welcome to our digital marketing agency! We are here to help you grow your online presence and reach your target audience effectively. Our team of experts specializes in SEO, social media marketing, content creation, and data-driven strategies. Let's work together to achieve your business goals and drive success in the digital world!</p>
+        </section>
+        <section class="sec4">
+            <h2>Our Expertise :</h2>
+            <ul>
+                <li>
+                    <img src="./image/seo.png">
+                    <h3>(SEO)</h3>
+                </li>
+                <li>
+                    <img src="./image/affiliate-marketing.png">
+                    <h3>(Affiliate)</h3>
+                </li>
+                <li>
+                    <img src="./image/banner.png">
+                    <h3>(ads)</h3>
+                </li>
+                <li>
+                    <img src="./image/content.png">
+                    <h3>(Content)</h3>
+                </li>
+                <li>
+                    <img src="./image/email.png">
+                    <h3>(Email)</h3>
+                </li>
+                <li>
+                    <img src="./image/sem.png">
+                    <h3>(SEM)</h3>
+                </li>
+                <li>
+                    <img src="./image/social-media.png">
+                    <h3>(Social)</h3>
+                </li>
+            </ul>
+            <div><a href="services.html">Know More</a></div>
+        </section>
+        <section class="sec3 show-animate">
+            <h2>Our Team :</h2>
+          <ul>
+           <li class="images">
+            <img src="./image/ajay.jpeg">
+            <h3>Ajay</h3>
+            <p>SEO Analysist & Content Writer</p>
+            <br>
+           </li>
+           <li class="images">
+            <img src="./image/jyoti.jpeg">
+            <h3>Jyoti Soni</h3>
+            <p>SEO Analysist & Content Writer</p>
+            <br>
+           </li>
+           <li class="images">
+            <img src="./image/pooja.jpeg">
+            <h3>Pooja</h3>
+            <p>Creative Head</p>
+            <br><br><br>
+           </li>
+           <li class="images">
+            <img src="./image/priya.jpeg">
+            <h3>Priya</h3>
+            <p>SEO Head</p>
+            <br><br><br>
+           </li>
+           <li class="images">
+            <img src="./image/sagar.jpeg">
+            <h3>Sagar</h3>
+            <p>Back Office Operations</p>
+            <br><br>
+           </li>
+           <li class="images">
+            <img src="./image/tarun.jpeg">
+            <h3>Tarun Sharma</h3>
+            <p>Digital Marketing Expert</p>
+           </li>
+           <li class="images">
+            <img src="./image/me1.jpeg">
+            <h3>Priyanshu</h3>
+            <p>Website Developer</p>
+            <br><br>
+           </li>
+        </ul>
         </section>
     </main>
+    <footer>
+        <script>
+            if(window.innerWidth<600){
+                document.write(`<div><img src="./image/logo3.jpeg"><h4>Guru Kripa Infra</h4><br><br></div><ul><li><h4>Guru Kripa Infra</h4></li> <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li></ul>`)
+            }else{
+                document.write(`<div><img src="./image/logo3.jpeg"><h4>Guru Kripa Infra</h4><br><br></div><ul><li><h4>Contact Us</h4></li><li>contact no. : +91 8696666468</li><li>Email : gurukripainfra313@gmail.com</li><li><a href ="https://maps.app.goo.gl/eJQmFdALkcw8gwU3A">locate us : 149,habib marg,gandhi path<br>,vaishali nagar,jaipur</a></li></ul><ul><li><h4>Guru Kripa Infra</h4></li><a class="active" href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="About.html">about us</a></li>
+            <li><a href="contact.html">Contact us</a></li></ul><ul><li><h4>Services</h4></li><li><a href="services.html">Search Engine Optimisation</a></li><li><a href="services.html">Search Engine Marketing</a></li><li><a href="services.html">Social Media Marketing</a></li><li><a href="services.html">Know More</a></li></ul>`)
+            }
+        </script>
+    </footer>
 </body>
+<script src="home.js"></script>
 </html>
