@@ -143,7 +143,7 @@ main section p{
   .sec4 ul{
     list-style: none;
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
   }
 
   .sec4 li{
@@ -291,6 +291,9 @@ main section p{
   }
   .sec4 li{
     margin: 30px;
+  }
+  .sec4 ul{
+    max-width: 70%;
   }
   .sec3 ul{
     max-width: 80%;
