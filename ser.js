@@ -8,7 +8,7 @@ window.onscroll = () =>{
         let height = sec.offsetHeight;
 
         if(window.innerWidth<600){
-            offset = sec.offsetTop-1000;
+            offset = sec.offsetTop-500;
         }else{
             offset = sec.offsetTop-200;
         }
