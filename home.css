@@ -15,7 +15,7 @@ nav{
 }
 
 img.logo{
-    height: 60px;
+    height: 100px;
     width: 125px;    
     padding: 0 50px;
 }
@@ -69,10 +69,14 @@ img.papa{
 }
 
 main section p{
-    margin: 20px;
+    margin: 0;
     margin-top: 50px;
     text-align: center;
     color: black;
+}
+
+.about p{
+  margin: 50px;
 }
 
 .centered {
@@ -89,17 +93,13 @@ main section p{
     animation-timing-function: ease-in-out;
   }
 
-  .sec2 .animate span{
-    font-size: 20px;
-    font-weight: bold;
-  }
-
   .sec2 p{
     font-size: 20px;
+    padding: 50px;
   }
 
   .sec3 ul{
-    max-width: 1000px;
+    max-width: 550px;
     margin: 0 auto;
     list-style: none;
   }
@@ -195,7 +195,7 @@ main section p{
   }
 
   footer div img{
-    width: 100px;
+    width: 150px;
   }
   
   footer div{
@@ -224,6 +224,42 @@ main section p{
     margin: 20px 0;
   }
 
+
+  .secjyoti{
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .secjyoti .jyoti{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+  }
+
+  .secjyoti .jyoti img{
+    border: solid green;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .secjyoti h2{
+    text-align: center;
+    color: green;
+    margin: 10px;
+  }
+
+  .secjyoti .jyoti p{
+    margin: 0;
+  }
+
+  span{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+  }
 
 @media(max-width:909px){
     img.logo{
@@ -309,6 +345,12 @@ main section p{
     margin-left: 20px;
   }
   footer{
+    padding: 10px;
+  }
+  .secjyoti .jyoti img{
+    width: 300px;
+  }
+  .sec2 p{
     padding: 10px;
   }
 }

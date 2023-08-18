@@ -15,9 +15,9 @@ nav{
 }
 
 img.logo{
-    height: 60px;
-    width: 125px;    
-    padding: 0 50px;
+  height: 100px;
+  width: 125px;    
+  padding: 0 50px;
 }
 
 nav ul{
@@ -191,7 +191,7 @@ main section p{
   }
 
   footer div img{
-    width: 100px;
+    width: 150px;
   }
   
   footer div{
