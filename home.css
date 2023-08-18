@@ -224,6 +224,9 @@ main section p{
     margin: 20px 0;
   }
 
+  .cont a{
+    cursor: pointer;
+  }
 
   .secjyoti{
     max-width: 500px;
