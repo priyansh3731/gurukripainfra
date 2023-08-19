@@ -66,6 +66,8 @@ img.papa{
     height: 200px;
     width: 200px;
     margin: 20px;
+    border-radius: 50%;
+    border: solid green;
 }
 
 main section p{
@@ -82,7 +84,7 @@ main section p{
 .centered {
     text-align: center;
     font-size: 30px;
-    margin: 20px;
+    margin: 0 20px;
     color: green;
     font-weight: bold;
   }
@@ -95,11 +97,12 @@ main section p{
 
   .sec2 p{
     font-size: 20px;
-    padding: 50px;
+    padding: 20px 50px;
+    margin: 0;
   }
 
   .sec3 ul{
-    max-width: 550px;
+    max-width: 600px;
     margin: 0 auto;
     list-style: none;
   }
