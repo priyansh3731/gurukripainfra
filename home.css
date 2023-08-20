@@ -56,7 +56,7 @@ nav #icon{
     margin-right: 40px;
 }
 
-section.sec1{
+.sec1{
     max-width: 700px;
     display: flex;
     margin: 50px auto;
@@ -69,6 +69,13 @@ img.papa{
     border-radius: 50%;
     border: solid green;
 }
+
+.sec1 p{
+  font-size: 15px;
+    padding: 20px 50px;
+    margin: 0;
+}
+
 
 main section p{
     margin: 0;
@@ -87,12 +94,6 @@ main section p{
     margin: 0 20px;
     color: green;
     font-weight: bold;
-  }
-
-  .sec2 .animate{
-    animation-name: ani;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
   }
 
   .sec2 p{
@@ -136,6 +137,10 @@ main section p{
 
   .sec4{
     margin: 50px 0;
+  }
+
+  .sec4 p{
+    font-size: 20px;
   }
 
   .sec4 h2{
@@ -211,7 +216,13 @@ main section p{
   }
 
   .about{
-    margin: 100px 20px;
+    margin: 20px;
+  }
+
+  .about p{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
   }
 
 
@@ -267,6 +278,22 @@ main section p{
     font-weight: bold;
   }
 
+  .sec1 .animate{
+    animation-name: ani1;
+    animation-duration: 1s;
+  }
+
+  .sec2 .animate{
+    animation-name: ani2;
+    animation-duration: 1s;
+  }
+
+
+  .main-ani{
+    animation-name: ani3;
+    animation-duration: 2s;
+  }
+
 @media(max-width:909px){
     img.logo{
         padding: 0 10px;
@@ -314,23 +341,6 @@ main section p{
     font-size: 20px;
     margin: 20px 0;
    }
-   section .animate{
-    opacity: 0;
-    filter: blur(5px);
-    transition: 1s;
-  }
-
-  section.show-animate .animate{
-    opacity: 1;
-    filter: blur(0);
-  }
-   .sec2 .animate{
-    transform: translateX(-100%);
-  }
-
-  .sec2.show-animate .animate{
-    transform: translateX(0);
-  }
   .sec4 li{
     margin: 30px;
   }
@@ -359,13 +369,53 @@ main section p{
   .sec2 p{
     padding: 10px;
   }
+  .about P{
+    padding: 0;
+  }
+  .about{
+    margin: 100px 0;
+  }
 }
 
-@keyframes ani {
+
+@keyframes ani1{
   from{
-      transform: translateX(-100%);
-    }
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+    transform: translateY(-100%);
+  }
   to{
-      transform: translateX(0);
-    }
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes ani2{
+  from{
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+    transform: translateX(-100%);
+  }
+  to{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes ani3{
+  from{
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+  }
+  to{
+    opacity: 1;
+    filter: blur(0);
+  }
 }
